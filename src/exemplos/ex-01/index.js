@@ -7,7 +7,7 @@ function Exemplo01 () {
         <View style={styles.container} >
             <Text style={styles.titulo} >Exemplo 1</Text>
             <Text>
-                Aula de React Native com Expo
+                vergonha pra midia!!
             </Text>
         </View>
     );
