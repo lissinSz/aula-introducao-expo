@@ -2,29 +2,39 @@ import { View, Text, Image } from 'react-native';
 
 import styles from './styles';
 
-import img from '../../../assets/camisaPreta.png'; 
-import img from '../../../assets/camisaListrada.png'; 
-import img from '../../../assets/camisaBranca.png'; 
+import imgPreta from '../../../assets/camisaPreta.png'; 
+import imgListrada from '../../../assets/camisaListrada.png'; 
+import imgBranca from '../../../assets/camisaBranca.png'; 
 
 
 
-import Mensagem from './mensagens';
+import Card from './mensagens';
 
 function Atividade02 () {
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>Atividade 2</Text>
-            <Image source={img} style={styles.imagem} /> 
+        <Card
+            titulo={'Camisa Preta'}
+            descricao={'Camisa Preta Corinthans'}
+            preco={'R$:300,00'} 
+            img={imgPreta}
+        /> 
+        <Card
+            titulo={'Camisa Listrada'}
+            descricao={'Camisa Listrada Corinthians'}
+            preco={'R$:349,00'}
+            img={imgListrada}
 
-            <Mensagem titulo={'Sucesso'}>
-                Valor enviado corretamente!
-            </Mensagem>
-            <Mensagem titulo={'Erro'}>
-                O programa não respondeu como esperado!
-            </Mensagem>
-            <Mensagem titulo={'Alerta'}>
-                Você não pode fazer isso!
-            </Mensagem>
+        />
+        <Card
+            titulo={'Camisa Branca'}
+            descricao={'Camisa Branca Corinthians'}
+            preco={'R$:400,00'}
+            img={imgBranca}
+
+        />   
+
         </View>
     );
 }
