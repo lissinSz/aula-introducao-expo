@@ -3,10 +3,11 @@ import { StyleSheet, View } from 'react-native';
 
 import Exemplo01 from './src/exemplos/ex-01';
 import Exemplo02 from './src/exemplos/ex-02';
+import Exemplo03 from './src/exemplos/ex-03';
 
-
-import Atividade01 from './src/atividades/ativ-01';
+import Atividade01 from './src/atividades/atv-01';
 import Atividade02 from './src/atividades/atv-02';
+import Atividade03 from './src/atividades/atv-03';
 import Card from './src/atividades/atv-02/mensagens';
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
     <View style={styles.container}>
       
       
-     <Atividade02 />
+     <Atividade03 />
       
       <StatusBar style="auto" />
     </View>
