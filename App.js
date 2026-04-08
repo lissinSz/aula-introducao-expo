@@ -8,6 +8,8 @@ import Exemplo03 from './src/exemplos/ex-03';
 import Atividade01 from './src/atividades/atv-01';
 import Atividade02 from './src/atividades/atv-02';
 import Atividade03 from './src/atividades/atv-03';
+import Atividade04 from './src/atividades/atv-04';
+
 import Card from './src/atividades/atv-02/mensagens';
 
 export default function App() {
@@ -15,7 +17,7 @@ export default function App() {
     <View style={styles.container}>
       
       
-     <Atividade03 />
+     <Atividade04 />
       
       <StatusBar style="auto" />
     </View>
