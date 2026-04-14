@@ -13,7 +13,7 @@ export default function Exemplo04() {
         setMensagem(txt2);
         setTxt2('');
     }
-
+    // teste
     return (
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo 4</Text>
